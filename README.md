@@ -20,6 +20,12 @@ This project aims to provide a basic calculator with essential arithmetic operat
 
 3. Start performing calculations using the on-screen buttons.
 
+## Screenshots
+
+Include screenshots or GIFs of your calculator in action to give users a visual preview.
+
+![Calculator Screenshot](example.gif)
+
 
 ## Contributing
 
