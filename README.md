@@ -22,7 +22,6 @@ This project aims to provide a basic calculator with essential arithmetic operat
 
 ## Screenshots
 
-Include screenshots or GIFs of your calculator in action to give users a visual preview.
 
 ![Calculator Screenshot](example.gif)
 
