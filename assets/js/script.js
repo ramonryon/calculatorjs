@@ -6,14 +6,14 @@ let output = "";
 const calculate = (btnValue) => {
   if (btnValue === "=" && output !== "") {
     // If output has '%', replace with '/100' before evaluating
-    output == eval(output.replace("%", "/100"));
+    output = eval(output.replace("%", "/100"));
   } else if (btnValue === "AC") {
     output = "";
   } else if (btnValue === "DEL") {
     // If DEL button is clicked, remove the last character from output
     output = output.toString().slice(0, -1);
   } else {
-    // If output is empty and button is specialChars the return
+    // If output is empty and button is specialChars then return
     if (output === "" && specialChars.includes(btnValue)) return;
     output += btnValue;
   }
